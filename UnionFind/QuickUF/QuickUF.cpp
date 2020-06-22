@@ -18,7 +18,7 @@ void QuickUF::unionize(int p, int q) {
     int pid = id[p];
     int qid = id[q];
 
-    for (int i = 0; i < N; i++) {
+    for (int i = 0; i < N; i++) {   // This is too slow when you run this on N objects (quadratic time!)
         bool didUnion = false;
         if (id[i] == pid) {
             id[i] = qid;

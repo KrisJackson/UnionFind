@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		18331BDC24A0411C0035311C /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 18331BDB24A0411C0035311C /* main.cpp */; };
+		18331BE024A0DBBF0035311C /* QuickUnion.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 18331BDE24A0DBBF0035311C /* QuickUnion.cpp */; };
 		18C3B54B249FE9EF005D1930 /* QuickUF.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 18C3B549249FE9EF005D1930 /* QuickUF.cpp */; };
 /* End PBXBuildFile section */
 
@@ -25,6 +26,8 @@
 
 /* Begin PBXFileReference section */
 		18331BDB24A0411C0035311C /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		18331BDE24A0DBBF0035311C /* QuickUnion.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = QuickUnion.cpp; sourceTree = "<group>"; };
+		18331BDF24A0DBBF0035311C /* QuickUnion.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = QuickUnion.hpp; sourceTree = "<group>"; };
 		18C3B53F249FE9AE005D1930 /* UnionFind */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = UnionFind; sourceTree = BUILT_PRODUCTS_DIR; };
 		18C3B549249FE9EF005D1930 /* QuickUF.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = QuickUF.cpp; sourceTree = "<group>"; };
 		18C3B54A249FE9EF005D1930 /* QuickUF.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = QuickUF.hpp; sourceTree = "<group>"; };
@@ -50,6 +53,15 @@
 			path = QuickUF;
 			sourceTree = "<group>";
 		};
+		18331BDD24A0DB1E0035311C /* QuickUnion */ = {
+			isa = PBXGroup;
+			children = (
+				18331BDF24A0DBBF0035311C /* QuickUnion.hpp */,
+				18331BDE24A0DBBF0035311C /* QuickUnion.cpp */,
+			);
+			path = QuickUnion;
+			sourceTree = "<group>";
+		};
 		18C3B536249FE9AE005D1930 = {
 			isa = PBXGroup;
 			children = (
@@ -71,6 +83,7 @@
 			children = (
 				18331BDB24A0411C0035311C /* main.cpp */,
 				18331BDA24A03F4F0035311C /* QuickUF */,
+				18331BDD24A0DB1E0035311C /* QuickUnion */,
 			);
 			path = UnionFind;
 			sourceTree = "<group>";
@@ -134,6 +147,7 @@
 			files = (
 				18331BDC24A0411C0035311C /* main.cpp in Sources */,
 				18C3B54B249FE9EF005D1930 /* QuickUF.cpp in Sources */,
+				18331BE024A0DBBF0035311C /* QuickUnion.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
