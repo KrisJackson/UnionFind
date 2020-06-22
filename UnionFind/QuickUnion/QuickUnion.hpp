@@ -16,7 +16,7 @@ using namespace std;
 
 class QuickUnion {
 private:
-    int N;                           // Number of nodes and components
+    int N;                              // Number of nodes and components
     int* id;                            // Pointer to array containing nodes
     
     int root(int i);
